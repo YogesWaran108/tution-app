@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.sticky-top {
+  position:absolute;
+  
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 60px; /* Adjust this value based on the height of the sticky header */
+}
+
+.video {
+  width: 100%;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}

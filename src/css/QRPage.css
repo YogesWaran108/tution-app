@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .sticky-top {
+    position: sticky;
+    top: 0; /* Adjust this value based on the height of your navbar */
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .content {
+    margin-top: 60px; /* Adjust this value based on the height of the sticky header */
+  }
+  
+  .qr-code {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .error {
+    color: red;
+  }
