@@ -4,7 +4,7 @@ import '../css/QRPage.css';
 const QRPage = () => {
   const [qrSrc, setQrSrc] = useState('');
   const [error, setError] = useState('');
-  const data = 'https://www.google.com'; // Replace with the data you want to generate a QR code for
+  const data = 'https://github.com/YogesWaran108/tution-app'; // Replace with the data you want to generate a QR code for
 
   useEffect(() => {
     const url = `http://127.0.0.1:5000/generate_qr?data=${encodeURIComponent(data)}`;
